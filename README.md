@@ -69,21 +69,24 @@ public class VoidFunctions : MonoBehaviour {
 
 5.
 
- public int num1;
-  public int num2;
+public class VoidFunctions : MonoBehaviour {
 
-  void Update()
-  {
-    int num = AddNumbers(num1, num2);
-    print(num);
-  }
+	public int num1;
+	public int num2;
 
-  public int AddNumbers(int number1, int number2)
-  {
-    int result = number1 + number2;
+	void Update()
+		{
+		int num = AddNumbers(num1, num2);
+		print(num);
+		}
 
-    return result;
-  }
+	public int AddNumbers(int number1, int number2)
+		{
+		int result = number1 + number2;
+
+		return result;
+		}
+}
 
 6.
 
@@ -146,4 +149,24 @@ public class VoidFunctions : MonoBehaviour {
 }
 
 9. 
+
+public class ScriptTesting : MonoBehaviour {
+
+	public int player1cards = 5;
+	public int player2cards = 5;
+
+	void Start()
+	{
+		if(player1cards == 5 && player2cards == 5)
+		{
+			print("Now we can play GoFish.");
+		}
+		else
+		{
+			print("Player 1 &/or 2 still needs more card(s).");
+		}
+	}
+}
+
+10.
 
