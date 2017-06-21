@@ -63,3 +63,45 @@ public int slot2;
 	}
 
 }
+
+A few examples based on the Unity tutorials
+
+4.
+
+public class VoidFunctions : MonoBehaviour {
+
+	int myInt = 3;
+
+	void Start()
+	{
+		print(myInt);
+	}
+
+}
+
+5.
+
+public class VoidFunctions : MonoBehaviour {
+
+	int myInt = 3;
+
+	void Start()
+	{
+		print(myInt * 4);
+	}
+
+}
+
+6.
+
+public class VoidFunctions : MonoBehaviour {
+
+	int myInt = 3;
+
+	void Start()
+	{
+		myInt = 25;
+		print(myInt * 4);
+	}
+
+}
