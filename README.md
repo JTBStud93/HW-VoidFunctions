@@ -170,3 +170,14 @@ public class ScriptTesting : MonoBehaviour {
 
 10.
 
+public class VoidFunctions : MonoBehaviour {
+
+	int myInt = 3;
+
+	void Start()
+	{
+		myInt = 9;
+		print(myInt / 3);
+	}
+
+}
