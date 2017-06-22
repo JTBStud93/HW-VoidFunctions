@@ -3,7 +3,7 @@ Watch read and practice from the module: Functions. Write your understanding of 
 
 The first 3 examples are based on the Unity tutorials.
 
-1.
+1. myInt is assigned to 3; and within the scope of the Void Function, myInt can be printed to the Unity Console window. Pretty simple...
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -16,7 +16,7 @@ public class VoidFunctions : MonoBehaviour {
 
 }
 
-2.
+2. To expand from the previous example, before myInt can get printed, this example shows that it get's multiplied by 4, so it prints "12".
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -29,7 +29,7 @@ public class VoidFunctions : MonoBehaviour {
 
 }
 
-3.
+3. Now in this example, this shows that a new myInt (within the scope of the VF) has been assigned to 25, which now overrides the myInt outside of the void. So now with that, and while it multiplies by 4; its actually printing "100".
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -43,7 +43,7 @@ public class VoidFunctions : MonoBehaviour {
 
 }
 
-The next four are examples based on Preston's lesson in class today.
+The next four (4 - 7) are examples based on Preston's lesson in class today.
 
 4.
 
@@ -150,7 +150,7 @@ public class VoidFunctions : MonoBehaviour {
 
 9. 
 
-public class ScriptTesting : MonoBehaviour {
+public class VoidFunctions : MonoBehaviour {
 
 	public int player1cards = 5;
 	public int player2cards = 5;
