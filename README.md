@@ -45,7 +45,7 @@ public class VoidFunctions : MonoBehaviour {
 
 The next four (4 - 7) are examples based on Preston's lesson in class today.
 
-4.
+4. Since the Void Function doesn't return a value, the "return" command is used to bring to the Console window. The result will be printed once.
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -67,7 +67,7 @@ public class VoidFunctions : MonoBehaviour {
 
 }
 
-5.
+5. Same thing as the previous example, the only difference is that the "Start" that was next to "Void" has been replaced with "Update". This will continually print the result in the Console window - from what I heard in class - for every frame.
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -88,12 +88,12 @@ public class VoidFunctions : MonoBehaviour {
 		}
 }
 
-6.
+6. Once you prepare the functions for the int AddNumbers - int number1, int number2 - and "return" the "result"; below it shows that the num AddNumbers with the first number - int number1 - being 10, and the second - int number2 - being 2. Those two numbers that are inputed will be added and printed as a new number - 12.
 
 public class VoidFunctions : MonoBehaviour
 {
 
-  public static int AddNumbers(int number1, number2)
+  public static int AddNumbers(int number1, int number2)
   {
     int result = number1 + number2;
     
