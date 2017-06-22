@@ -104,7 +104,7 @@ public class VoidFunctions : MonoBehaviour
 
 }
 
-7.
+7. This example creates 2 value-placeholders in the script's inspector, allowing you to plug in any number to "slot1" &/or "slot2". But for a toaster, only 1 slice of bread can fit in 1 slot; so if there's one slice in either the first or second slot, the bread becomes toast. (SIDE NOTE: I tried to copy part of the example with the "&&" to include one slice for both slots, so it would say "Both slices are toasted!", but for some reason I've been getting errors on my home computer; even though it worked just fine in class today...)
 
 public class Toaster : MonoBehaviour {
 
@@ -127,7 +127,7 @@ public class Toaster : MonoBehaviour {
 
 }
 
-8.
+8. Similar to #4, but the values are being subtracted.
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -148,7 +148,7 @@ public class VoidFunctions : MonoBehaviour {
 
 }
 
-9. 
+9. Similar to #7, but with "&&".
 
 public class VoidFunctions : MonoBehaviour {
 
@@ -168,7 +168,7 @@ public class VoidFunctions : MonoBehaviour {
 	}
 }
 
-10.
+10. Similar to #3, but with division.
 
 public class VoidFunctions : MonoBehaviour {
 
